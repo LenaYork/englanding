@@ -13,10 +13,15 @@
     justify-content: space-around;
 }
 
+.header-navigation a:active {
+    color: #590c9c;
+    transition: 0.1s;
+}
+
 .menu-icon {
-   display: flex;
-   justify-content: center;
-   margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
 }
 
 .menu-icon:hover {
