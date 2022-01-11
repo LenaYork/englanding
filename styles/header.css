@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap');
 
 .header {
-    width: 98.7vw;
     display: flex;
     justify-content: space-between;
     padding: 5px 10px;
