@@ -13,3 +13,4 @@ window.addEventListener("resize", function() {
         menuIcon.classList.remove("change");
     } 
 }, false);
+
