@@ -1,8 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
 h1, body {
     margin: 0;
     color: #6b03c0;
+}
+
+h3 {
+    font-size: 1.5em;
 }
 
 ul, li {
@@ -25,9 +37,13 @@ li {
     /* text-shadow: 1px 1px 1px white; */
 }
 
+.button {
+    border-radius: 10px;
+}
+
 .main-container {
     height: 100vh;
-    width: 100vw;
+    width: 99vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -36,3 +52,10 @@ li {
 html {
     scroll-behavior: smooth;
 }
+
+/* main */
+.main {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
