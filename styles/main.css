@@ -39,6 +39,7 @@ li {
 
 .button {
     border-radius: 10px;
+    border: 2px solid #6b03b6;
 }
 
 .main-container {
