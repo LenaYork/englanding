@@ -60,3 +60,7 @@ html {
     max-width: 1200px;
 }
 
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

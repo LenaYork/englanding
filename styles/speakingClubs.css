@@ -1,0 +1,72 @@
+@media (max-width: 1130px) {
+    .speakingClub-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .speakingClub-pic {
+        display: none;
+    }
+
+    /* .speakingClub-info {
+        background: url("../pics/.extra-poster");
+        max-width: 600px;
+    } */
+
+    .speakingClub-info {
+        border: 5px ridge #6b03b6;
+        margin: 10px;
+        padding: 10px;
+        /* background: url("../pics/extra-title.jpg") no-repeat right top; */
+        background-color: #e2b9ff;
+        max-width: 600px;
+    }
+
+    .extra-pic-for-mobile {
+        /* display: block;*/
+        max-width: 550px;
+        height: 220px;
+        margin: 0 auto;
+        background: url("../pics/extra-title.jpg"); 
+        background-size: cover;
+        background-position-x: 50%;
+        background-position: 50%;
+    }
+}
+
+@media (min-width: 1131px) {
+    .speakingClub-container {
+        flex-direction: row;
+    }
+
+    .speakingClub-info, .speakingClub-pic {
+        border: 5px ridge #6b03b6;
+        margin: 10px;
+        padding: 10px;
+        background-color: #e2b9ff;
+    }
+
+    .extra-pic-for-mobile {
+        display: none;
+    }
+}
+
+.speakingClub-container {
+    display: flex;
+}
+
+/* .speakingClub-info, .speakingClub-pic {
+    border: 5px ridge #6b03b6;
+    margin: 10px;
+    padding: 10px;
+    background-color: #e2b9ff;
+} */
+
+.speakingClub-info:hover, .speakingClub-pic:hover {
+    background-color: #f2e6fb;
+    outline: 3px ridge #6b03b6;
+}
+
+.speakingClub-pic .extra-poster {
+
+}
